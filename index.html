@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.2/lib/draggable.min.js"></script>
+
+    <title>Work Day Scheduler</title>
+</head>
+
+<body>
+    <header class="jumbotron">
+        <h1 class="display-3">Work Day Scheduler</h1>
+        <p class="lead">A simple calendar app for scheduling your work day</p>
+        <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+        <table class="table">
+
+            <tr class="content 8AM" id="8AM">
+                <td class="hour">8 AM</td>
+                <td><textarea class="text8 dayText"></textarea></td>
+                <td><button class="saveBtn8"><i class="fas fa-save"></i></button></td>
+            </tr>
+            <tr class="content 9AM" id="9AM">
+                <td class="hour">9 AM </td>
+                <td><textarea class="text9 dayText"></textarea></td>
+                <td><button class="saveBtn9"><i class="fas fa-save"></i></button></td>
+            </tr>
+            <tr class="content 10AM" id="10AM">
+                <td class="hour">10 AM</td>
+                <td><textarea class="text10 dayText"></textarea></td>
+                <td><button class="saveBtn10"><i class="fas fa-save"></i></button></td>
+            </tr>
+            <tr class="content 11AM" id="11AM">
+                <td class="hour">11 AM</td>
+                <td><textarea class="text11 dayText"></textarea></td>
+                <td><button class="saveBtn11"><i class="fas fa-save"></i></button></td>
+            </tr>
+            <tr class="content 12PM" id="12PM">
+                <td class="hour">12 PM</td>
+                <td><textarea class="text12 dayText"></textarea></td>
+                <td><button class="saveBtn12"><i class="fas fa-save"></i></button></td>
+            </tr>
+            <tr class="content 1PM" id="1PM">
+                <td class="hour" hour="13">1 PM</td>
+                <td><textarea class="text1 dayText"></textarea></td>
+                <td><button class="saveBtn1"><i class="fas fa-save"></i></button></td>
+            </tr>
+            <tr class="content 2PM" id="2PM">
+                <td class="hour" hour ="14">2 PM</td>
+                <td><textarea class="text2 dayText"></textarea></td>
+                <td><button class="saveBtn2"><i class="fas fa-save"></i></button></td>
+            </tr>
+            <tr class="content 3PM" id="3PM">
+                <td class="hour" hour ="15">3 PM</td>
+                <td><textarea class="text3 dayText"></textarea></td>
+                <td><button class="saveBtn3"><i class="fas fa-save"></i></button></td>
+            </tr>
+            <tr class="content 4PM" id="4PM">
+                <td class="hour" hour ="16">4 PM</td>
+                <td><textarea class="text4 dayText"></textarea></td>
+                <td><button class="saveBtn4"><i class="fas fa-save"></i></button></td>
+            </tr>
+            <tr class="content 5PM" id="5PM">
+                <td class="hour" hour ="17">5 PM</td>
+                <td><textarea class="text5 dayText"></textarea></td>
+                <td><button class="saveBtn5"><i class="fas fa-save"></i></button></td>
+            </tr>
+
+
+        </table>
+        <br>
+        <br>
+        <br>
+        <br>
+<div>DRAGGABLE.js WEEKLY Scheduler UNDER CONSTRUCTION. Try swapping elements around</div>
+        <div class="grid">
+            <div class="block">
+                <div class="droppable draggable-dropzone--occupied">
+                    <div class="draggable swappable red">Nathan</div>
+                </div>
+            </div>
+        
+            <div class="block">
+                <div class="droppable draggable-dropzone--occupied">
+                    <div class="draggable swappable blu"><input></div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="droppable draggable-dropzone--occupied">
+                    <div class="draggable swappable lin"><textarea></textarea></div>
+                </div>
+            </div>
+        
+            <div class="block">
+                <div class="droppable draggable-dropzone--occupied">
+                    <div class="draggable swappable yel"><input></div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="droppable draggable-dropzone--occupied">
+                    <div class="draggable swappable pin"><textarea></textarea></div>
+                </div>
+            </div>
+        
+            <div class="block">
+                <div class="droppable draggable-dropzone--occupied">
+                    <div class="draggable swappable org"><input></div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="droppable draggable-dropzone--occupied">
+                    <div class="draggable swappable pur"><textarea></textarea></div>
+                </div>
+            </div>
+        
+            <div class="block">
+                <div class="droppable draggable-dropzone--occupied">
+                    <div class="draggable swappable gre"><input></div>
+                </div>
+            </div>
+
+        </div>
+        <div>Vanilla Draggable WEEKLY Scheduler UNDER CONSTRUCTION</div>
+        <table class="vanWeekly">
+            <tbody>
+                <tr>
+            <th>Sunday</th>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+        </tr>
+<tr>
+            <th>Monday</th>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <th>Saturday</th>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+            <td><textarea></textarea></td>
+        </tr>
+        </tbody>
+        </table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+        <div>THE FUTURE???</div>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
